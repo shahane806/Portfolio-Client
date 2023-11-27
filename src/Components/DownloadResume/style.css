@@ -1,0 +1,29 @@
+#DownloadResume{
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(32, 33, 39);
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+@media screen and (min-width:350px) and (max-width:1000px){
+    #DownloadResume{
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      margin-top: 1px;
+    }
+   
+    
+  }
+  

@@ -1,0 +1,58 @@
+
+.ContactInformation{
+    color: skyblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    line-height: 2;
+    background-color: rgba(10, 104, 187, 0.07);
+    margin-top: 10px;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    width: 100%;
+}
+.info{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.info-input{
+    width: 50%;
+    margin: auto;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    background-color: rgba(101, 145, 183, 0.473);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.input-box{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: center;
+    flex-direction: column;
+}
+.info-input-logo{
+    margin-left: 0px;
+    padding: 10px;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgba(64, 64, 66, 0.689);
+}

@@ -1,0 +1,78 @@
+#NavigationBar > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.Portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media  screen and (min-width:350px) {
+  .Portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:350px){
+  #NavigationBar{
+margin-top: 30px;
+margin-bottom: 60px;
+  }
+  .Portfolio{
+    flex-direction: column;
+  }
+}
+.link {
+  margin-right: 40px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+}
+.link:hover {
+  animation: changeBackground 0.9s forwards;
+
+}
+.nav-resume-button {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  border: 0px solid skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+.nav-resume-button:hover {
+    animation: changeBackground 0.9s forwards;
+}
+
+@keyframes changeBackground {
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+   box-shadow: skyblue 3px 0 0 2px;
+    opacity: 1;
+    color: white;
+  }
+}

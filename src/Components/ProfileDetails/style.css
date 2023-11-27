@@ -1,0 +1,49 @@
+#ProfileDetails{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  background-color: rgb(32, 33, 39);
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+@media screen and (min-width:350px)and (max-width:1000px){
+  #ProfileDetails{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 1px;
+  }
+ 
+  
+}
+.PersonalInformation h5{
+    color: white;
+    text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.PersonalInformation p{
+    color: grey;
+    text-align: right;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+@media screen and (max-width:350px){
+  #Side_Nav{
+margin-left: -10px;
+margin-bottom: 150px;
+  }
+  
+}

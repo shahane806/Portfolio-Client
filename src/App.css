@@ -1,0 +1,11 @@
+.App{
+  background-color: rgb(6, 8, 22);
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.Portfolio{
+
+  display: flex;
+  flex-direction: row;
+}

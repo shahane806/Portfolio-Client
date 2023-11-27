@@ -1,0 +1,26 @@
+#Side_Nav{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    max-width: 87%;
+    margin-right: 10px;
+    
+     
+}
+@media screen and (min-width:350px)and (max-width:1000px){
+    #Side_Nav{
+        margin-left: 50px;
+        margin-bottom: 150px;
+        flex-direction: column;
+        min-width: 87%;
+    }
+   
+    
+}
+@media screen and (min-width:600px)and (max-width:1500px){
+    
+   
+    #Side_Nav{
+        display: none;
+    }
+  }

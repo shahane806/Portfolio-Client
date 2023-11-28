@@ -1,4 +1,4 @@
 import axios from 'axios';
-export const API = axios.create({baseURL:"http://portfolio-server-production.up.railway.app"});
+export const API = axios.create({baseURL:"http://localhost:5000"});
 
 export const SendMessage = (data)=> API.post("/message",data);

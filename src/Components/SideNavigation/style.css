@@ -9,12 +9,9 @@
     padding-left: 50px;
      
 }
-@media screen and (min-width:350px)and (max-width:1000px){
+@media screen and (max-width:350px)and (max-width:1000px){
     #Side_Nav{
-        margin-bottom: 150px;
-        flex-direction: column;
-        min-width: 100%;
-        padding:10px;
+     display: none;
     }
    
     
@@ -24,5 +21,8 @@
    
     #Side_Nav{
         display: none;
+    }
+    #Banner{
+        margin-top: -400px;
     }
   }
